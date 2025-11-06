@@ -17,7 +17,7 @@ function createList() {
         <button class="dropdown-btn" onclick="toggleDropdown('${listId}')">
             Perfume Collection ${listCount} ▼
         </button>
-        <button class="delete-btn" onclick="deleteCollection(this)">🗑 Delete Collection</button>
+        <button class="delete-btn" onclick="deleteCollection(this)">Delete Collection</button>
 
 
         <div id="${listId}" class="dropdown-content">
